@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "id": "ly.img.formats",
+  "assets": [
+    {
+      "id": "page-sizes-custom",
+      "label": { "en": "Custom" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png"
+      },
+      "groups": ["custom"]
+    },
+    {
+      "id": "page-sizes-1-1",
+      "label": { "en": "Square" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "aspectRatio": "1:1"
+      },
+      "groups": ["fixed-ratio"]
+    },
+    {
+      "id": "page-sizes-4-3",
+      "label": { "en": "Ratio 4:3" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "aspectRatio": "4:3"
+      },
+      "groups": ["fixed-ratio"]
+    },
+    {
+      "id": "page-sizes-3-4",
+      "label": { "en": "Ratio 3:4" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "aspectRatio": "3:4"
+      },
+      "groups": ["fixed-ratio"]
+    },
+    {
+      "id": "page-sizes-16-9",
+      "label": { "en": "Ratio 16:9" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "aspectRatio": "16:9"
+      },
+      "groups": ["fixed-ratio"]
+    },
+    {
+      "id": "page-sizes-9-16",
+      "label": { "en": "Ratio 9:16" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "aspectRatio": "9:16"
+      },
+      "groups": ["fixed-ratio"]
+    },
+    {
+      "id": "page-sizes-ig-story",
+      "label": { "en": "Instagram Story" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "formatWidth": 1080,
+        "formatHeight": 1920,
+        "designUnit": "Pixel",
+        "fixedResolution": true
+      },
+      "groups": ["social"]
+    },
+    {
+      "id": "page-sizes-ig-feed",
+      "label": { "en": "Instagram Feed" },
+      "meta": {
+        "width": 80,
+        "height": 120,
+        "thumbUri": "https://sl-chat-image-development.s3.amazonaws.com/fe69449b-669f-44c1-b379-fb2b570bdf75.png",
+        "formatWidth": 1080,
+        "formatHeight": 1080,
+        "designUnit": "Pixel",
+        "fixedResolution": true
+      },
+      "groups": ["social"]
+    }
+  ]
+}
