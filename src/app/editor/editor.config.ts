@@ -126,7 +126,14 @@ export async function initPhotoEditorUIConfig(
     },
   });
   instance.ui.openPanel('ly.img.page-crop');
-  await addTemplatesAssetsSource(instance, "image")
+  const blob = await blobUrlToBlob(photoUri)
+  const isVideo = await isVideoBlob(blob)
+  if(isVideo){
+    await addTemplatesAssetsSource(instance, "video")
+  }else{
+    await addTemplatesAssetsSource(instance, "image")
+  }
+
   return () => {
     unsubscribeSceneSetup();
   };
