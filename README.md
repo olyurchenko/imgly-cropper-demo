@@ -81,3 +81,6 @@ Is there any examples of grouping remote media sources under 1 tab like this
 📷 Screenshot:
 
 https://sl-chat-image-development.s3.amazonaws.com/144dc610-7faf-4a09-9544-fc2838361270.png
+
+Does the NodeJs CE.SDK ("@cesdk/node": "^1.48.1") currently support exporting video? 
+Because I get this - Exporting video is currently not supported on Node.JS
