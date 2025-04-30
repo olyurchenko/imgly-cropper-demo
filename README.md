@@ -31,6 +31,23 @@ Uncaught Error: Target block has no fill
 
 https://sl-chat-video-development.s3.amazonaws.com/170a6452-2167-470f-868a-9577a094bee7.mp4
 
+
+🧪 Reproduction Steps:
+  - Open the demo in Google Chrome.
+  - Click on the attach button.
+  - Select some image.
+  - Wait for the editor to fully load.
+  - Click the Templates tab on the left sidebar.
+  - Select any available template.
+
+✅ Expected: Template is loaded and image is applied inside the placeholder.
+
+❌ Actual: A placeholder appears without an image.
+
+
+The browser console logs the error: Uncaught Error: Target block has no fill
+
+
 ### 🖼️ 2. Video cropping
 
 When applying a cropping to video:
@@ -38,6 +55,23 @@ When applying a cropping to video:
 📷 Screenshot:
 
 https://sl-chat-video-development.s3.amazonaws.com/ca535a10-5829-4d9b-b03e-f449e903f132.mp4
+
+
+🧪 Reproduction Steps:
+  - Open the demo in Google Chrome.
+  - Click on the attach button.
+  - Select some video.
+  - Wait for the editor to fully load.
+  - Click the Crop tab on the left sidebar.
+  - Select any available cropping option.
+
+✅ Expected: Video cropping is acting similar to image cropping.
+
+❌ Actual: It works differently.
+
+
+The browser console logs the error: Error: Component ubq/designblocks/ImageFill is not set on entity 3.
+
 
 
 
